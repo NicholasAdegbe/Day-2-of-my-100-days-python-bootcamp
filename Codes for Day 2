@@ -1,0 +1,51 @@
+# #Data Types
+print("Hello"[4])
+
+# # integers
+print(123+134)
+print(123_456_789)
+
+# flaoting
+3.2345
+
+# Boolean
+True
+False
+print(len(123))
+num_char=len(input("what is your name?\n "))
+a=str(num_char)
+print("Your name has "+ a + " Characters")
+type(num_char)
+print(70+float("100.5"))
+print("123"[0])
+
+#Adding two digits from a number
+two_digit_number = input("Type a two digit number: ")
+a=int(two_digit_number[0])
+b=int(two_digit_number[1])
+print(a+b)
+print(2**2)
+print(9+1.0-3)
+
+#BMI calculation given height and weight
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+x=float(height)
+y=int(weight)
+print(int(y/x**2))
+mark=80//2
+mark*=5
+print(mark)
+print(f"Your mark is {mark}")
+print(int(2.7))
+
+#The tip calculator
+print("Welcome to the tip calculator.")
+total_bill=input("What was the total bill? $")
+tip_percent=input("What percenatge tip would you like to give? 10, 12 or 15? ")
+number_persons=input("How many people are to split the bill? ")
+x=(int(tip_percent)/100)*float(total_bill)
+y=float(total_bill)+x
+z=y/int(number_persons)
+a=round(z,2)
+print(f"Each person should pay: ${a}")
